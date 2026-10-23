@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>One Cup, Two Stories</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main>
+    <h1>One Cup, Two Stories</h1>
+    <p>The same three photos can tell two different stories.</p>
+    <section aria-labelledby="story-title">
+      <h2 id="story-title">Story 1: The First Cup</h2>
+      <div class="photos">
+        <figure>
+          <img id="photo1" src="images/empty.jpg" alt="An empty glass beside the coffee machine">
+          <figcaption id="caption1">My cup is empty. It is time for coffee.</figcaption>
+        </figure>
+        <figure>
+          <img id="photo2" src="images/making.jpg" alt="Coffee flowing from the machine into a glass">
+          <figcaption id="caption2">I make a fresh cup of coffee.</figcaption>
+        </figure>
+        <figure>
+          <img id="photo3" src="images/full.jpg" alt="A full glass of coffee and milk">
+          <figcaption id="caption3">My coffee is ready to enjoy.</figcaption>
+        </figure>
+      </div>
+      <button id="next-story" type="button">Next Story</button>
+      <p id="story-number" aria-live="polite">Story 1 of 2</p>
+    </section>
+  </main>
+</body>
+</html>
